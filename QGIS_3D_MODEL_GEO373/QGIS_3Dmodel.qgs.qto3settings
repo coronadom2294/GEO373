@@ -1,0 +1,630 @@
+{
+  "CTRL": {
+    "comboBox_Controls": "OrbitControls.js"
+  }, 
+  "DEM": {
+    "checkBox_Clip": false, 
+    "checkBox_Frame": false, 
+    "checkBox_Shading": false, 
+    "checkBox_Sides": false, 
+    "checkBox_Surroundings": false, 
+    "checkBox_TransparentBackground": false, 
+    "comboBox_ClipLayer": "geo_dissolve2_smooth2_Id__120180115135720439", 
+    "comboBox_DEMLayer": "DEM_auto20180115132945786", 
+    "comboBox_TextureSize": 100, 
+    "horizontalSlider_DEMSize": 1, 
+    "layerImageIds": [
+      "DEM_auto20180115132945786"
+    ], 
+    "lineEdit_Color": "0x000000", 
+    "lineEdit_ImageFile": "", 
+    "lineEdit_centerX": "", 
+    "lineEdit_centerY": "", 
+    "lineEdit_rectHeight": "", 
+    "lineEdit_rectWidth": "", 
+    "radioButton_LayerImage": true, 
+    "radioButton_Simple": true, 
+    "spinBox_Height": 4, 
+    "spinBox_Roughening": 2, 
+    "spinBox_Size": 3, 
+    "spinBox_demtransp": 0, 
+    "visible": false
+  }, 
+  "OPTDEM": {
+    "DEM_auto20180115132945786": {
+      "checkBox_Clip": false, 
+      "checkBox_Frame": false, 
+      "checkBox_Shading": false, 
+      "checkBox_Sides": false, 
+      "checkBox_Surroundings": false, 
+      "checkBox_TransparentBackground": false, 
+      "comboBox_ClipLayer": "geo_dissolve2_smooth2_Id__120180115135720439", 
+      "comboBox_DEMLayer": "DEM_auto20180115132945786", 
+      "comboBox_TextureSize": 100, 
+      "horizontalSlider_DEMSize": 2, 
+      "layerImageIds": [
+        "DEM_auto20180115132945786"
+      ], 
+      "lineEdit_Color": "0x000000", 
+      "lineEdit_ImageFile": "", 
+      "lineEdit_centerX": "", 
+      "lineEdit_centerY": "", 
+      "lineEdit_rectHeight": "", 
+      "lineEdit_rectWidth": "", 
+      "radioButton_Simple": true, 
+      "radioButton_SolidColor": true, 
+      "spinBox_Height": 4, 
+      "spinBox_Roughening": 4, 
+      "spinBox_Size": 5, 
+      "spinBox_demtransp": 100, 
+      "visible": false
+    }
+  }, 
+  "OutputFilename": "/Users/maricela/Desktop/QGIS_3dModels.html", 
+  "POLYGON": {
+    "_120180116003603211": {
+      "checkBox_Clip": true, 
+      "checkBox_ExportAttrs": false, 
+      "comboBox_Label": null, 
+      "comboBox_ObjectType": 0, 
+      "heightWidget": {
+        "comboData": 2, 
+        "comboText": "Relative to DEM", 
+        "editText": "0", 
+        "type": 4
+      }, 
+      "labelHeightWidget": {
+        "comboData": 3, 
+        "comboText": "Height from top", 
+        "editText": "43.3479955907", 
+        "type": 6
+      }, 
+      "radioButton_IntersectingFeatures": true, 
+      "styleWidget0": {
+        "comboData": 1, 
+        "comboText": "Feature style", 
+        "editText": "", 
+        "type": 2
+      }, 
+      "styleWidget1": {
+        "comboData": 1, 
+        "comboText": "Feature style", 
+        "editText": "", 
+        "type": 5
+      }, 
+      "styleWidget2": {
+        "comboData": 1, 
+        "comboText": "Fixed value", 
+        "editText": "5.20175947089", 
+        "type": 1
+      }, 
+      "styleWidget3": {}, 
+      "styleWidget4": {}, 
+      "styleWidget5": {}, 
+      "visible": false
+    }, 
+    "geo_dissolve2_smooth2_Id_020180115135720488": {
+      "checkBox_Clip": true, 
+      "checkBox_ExportAttrs": false, 
+      "comboBox_Label": null, 
+      "comboBox_ObjectType": 1, 
+      "heightWidget": {
+        "comboData": 2, 
+        "comboText": "Relative to DEM", 
+        "editText": ".1", 
+        "type": 4
+      }, 
+      "labelHeightWidget": {
+        "comboData": 3, 
+        "comboText": "Height from overlay", 
+        "editText": "72.2387015164", 
+        "type": 6
+      }, 
+      "radioButton_IntersectingFeatures": true, 
+      "styleWidget0": {
+        "comboData": 11, 
+        "comboText": "Layer image", 
+        "editText": "1 layer selected", 
+        "layerIds": [
+          "geo_dissolve2_smooth2_Id_020180115135720488"
+        ], 
+        "type": 8
+      }, 
+      "styleWidget1": {
+        "comboData": 2, 
+        "comboText": "Fixed value", 
+        "editText": "0", 
+        "type": 5
+      }, 
+      "styleWidget2": {
+        "comboData": 0, 
+        "comboText": "(No border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget3": {
+        "checkBox": false, 
+        "type": 9
+      }, 
+      "styleWidget4": {
+        "comboData": 1, 
+        "comboText": "Feature style (border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget5": {
+        "comboData": 1, 
+        "comboText": "Absolute value", 
+        "editText": "0", 
+        "type": 4
+      }, 
+      "visible": true
+    }, 
+    "geo_dissolve2_smooth2_Id_120180115135720490": {
+      "checkBox_Clip": true, 
+      "checkBox_ExportAttrs": false, 
+      "comboBox_Label": null, 
+      "comboBox_ObjectType": 1, 
+      "heightWidget": {
+        "comboData": 2, 
+        "comboText": "Relative to DEM", 
+        "editText": ".1", 
+        "type": 4
+      }, 
+      "labelHeightWidget": {
+        "comboData": 3, 
+        "comboText": "Height from overlay", 
+        "editText": "72.2387015164", 
+        "type": 6
+      }, 
+      "radioButton_IntersectingFeatures": true, 
+      "styleWidget0": {
+        "comboData": 11, 
+        "comboText": "Layer image", 
+        "editText": "1 layer selected", 
+        "layerIds": [
+          "geo_dissolve2_smooth2_Id_120180115135720490"
+        ], 
+        "type": 8
+      }, 
+      "styleWidget1": {
+        "comboData": 2, 
+        "comboText": "Fixed value", 
+        "editText": "0", 
+        "type": 5
+      }, 
+      "styleWidget2": {
+        "comboData": 0, 
+        "comboText": "(No border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget3": {
+        "checkBox": false, 
+        "type": 9
+      }, 
+      "styleWidget4": {
+        "comboData": 1, 
+        "comboText": "Feature style (border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget5": {
+        "comboData": 1, 
+        "comboText": "Absolute value", 
+        "editText": "0", 
+        "type": 4
+      }, 
+      "visible": true
+    }, 
+    "geo_dissolve2_smooth2_Id_220180115135720492": {
+      "checkBox_Clip": true, 
+      "checkBox_ExportAttrs": false, 
+      "comboBox_Label": null, 
+      "comboBox_ObjectType": 1, 
+      "heightWidget": {
+        "comboData": 2, 
+        "comboText": "Relative to DEM", 
+        "editText": ".1", 
+        "type": 4
+      }, 
+      "labelHeightWidget": {
+        "comboData": 3, 
+        "comboText": "Height from overlay", 
+        "editText": "72.2387015164", 
+        "type": 6
+      }, 
+      "radioButton_IntersectingFeatures": true, 
+      "styleWidget0": {
+        "comboData": 11, 
+        "comboText": "Layer image", 
+        "editText": "1 layer selected", 
+        "layerIds": [
+          "geo_dissolve2_smooth2_Id_220180115135720492"
+        ], 
+        "type": 8
+      }, 
+      "styleWidget1": {
+        "comboData": 2, 
+        "comboText": "Fixed value", 
+        "editText": "0", 
+        "type": 5
+      }, 
+      "styleWidget2": {
+        "comboData": 0, 
+        "comboText": "(No border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget3": {
+        "checkBox": false, 
+        "type": 9
+      }, 
+      "styleWidget4": {
+        "comboData": 1, 
+        "comboText": "Feature style (border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget5": {
+        "comboData": 1, 
+        "comboText": "Absolute value", 
+        "editText": "0", 
+        "type": 4
+      }, 
+      "visible": true
+    }, 
+    "geo_dissolve2_smooth2_Id_320180115135720493": {
+      "checkBox_Clip": true, 
+      "checkBox_ExportAttrs": false, 
+      "comboBox_Label": null, 
+      "comboBox_ObjectType": 1, 
+      "heightWidget": {
+        "comboData": 2, 
+        "comboText": "Relative to DEM", 
+        "editText": ".1", 
+        "type": 4
+      }, 
+      "labelHeightWidget": {
+        "comboData": 3, 
+        "comboText": "Height from overlay", 
+        "editText": "72.2387015164", 
+        "type": 6
+      }, 
+      "radioButton_IntersectingFeatures": true, 
+      "styleWidget0": {
+        "comboData": 11, 
+        "comboText": "Layer image", 
+        "editText": "1 layer selected", 
+        "layerIds": [
+          "geo_dissolve2_smooth2_Id_320180115135720493"
+        ], 
+        "type": 8
+      }, 
+      "styleWidget1": {
+        "comboData": 2, 
+        "comboText": "Fixed value", 
+        "editText": "0", 
+        "type": 5
+      }, 
+      "styleWidget2": {
+        "comboData": 0, 
+        "comboText": "(No border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget3": {
+        "checkBox": false, 
+        "type": 9
+      }, 
+      "styleWidget4": {
+        "comboData": 1, 
+        "comboText": "Feature style (border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget5": {
+        "comboData": 1, 
+        "comboText": "Absolute value", 
+        "editText": "0", 
+        "type": 4
+      }, 
+      "visible": true
+    }, 
+    "geo_dissolve2_smooth2_Id_420180115135720494": {
+      "checkBox_Clip": true, 
+      "checkBox_ExportAttrs": false, 
+      "comboBox_Label": null, 
+      "comboBox_ObjectType": 1, 
+      "heightWidget": {
+        "comboData": 2, 
+        "comboText": "Relative to DEM", 
+        "editText": ".1", 
+        "type": 4
+      }, 
+      "labelHeightWidget": {
+        "comboData": 3, 
+        "comboText": "Height from overlay", 
+        "editText": "72.2387015164", 
+        "type": 6
+      }, 
+      "radioButton_IntersectingFeatures": true, 
+      "styleWidget0": {
+        "comboData": 11, 
+        "comboText": "Layer image", 
+        "editText": "1 layer selected", 
+        "layerIds": [
+          "geo_dissolve2_smooth2_Id_420180115135720494"
+        ], 
+        "type": 8
+      }, 
+      "styleWidget1": {
+        "comboData": 2, 
+        "comboText": "Fixed value", 
+        "editText": "0", 
+        "type": 5
+      }, 
+      "styleWidget2": {
+        "comboData": 0, 
+        "comboText": "(No border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget3": {
+        "checkBox": false, 
+        "type": 9
+      }, 
+      "styleWidget4": {
+        "comboData": 1, 
+        "comboText": "Feature style (border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget5": {
+        "comboData": 1, 
+        "comboText": "Absolute value", 
+        "editText": "0", 
+        "type": 4
+      }, 
+      "visible": true
+    }, 
+    "geo_dissolve2_smooth2_Id_520180115135720496": {
+      "checkBox_Clip": true, 
+      "checkBox_ExportAttrs": false, 
+      "comboBox_Label": null, 
+      "comboBox_ObjectType": 1, 
+      "heightWidget": {
+        "comboData": 2, 
+        "comboText": "Relative to DEM", 
+        "editText": ".1", 
+        "type": 4
+      }, 
+      "labelHeightWidget": {
+        "comboData": 3, 
+        "comboText": "Height from overlay", 
+        "editText": "72.2387015164", 
+        "type": 6
+      }, 
+      "radioButton_IntersectingFeatures": true, 
+      "styleWidget0": {
+        "comboData": 11, 
+        "comboText": "Layer image", 
+        "editText": "1 layer selected", 
+        "layerIds": [
+          "geo_dissolve2_smooth2_Id_520180115135720496"
+        ], 
+        "type": 8
+      }, 
+      "styleWidget1": {
+        "comboData": 2, 
+        "comboText": "Fixed value", 
+        "editText": "0", 
+        "type": 5
+      }, 
+      "styleWidget2": {
+        "comboData": 0, 
+        "comboText": "(No border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget3": {
+        "checkBox": false, 
+        "type": 9
+      }, 
+      "styleWidget4": {
+        "comboData": 1, 
+        "comboText": "Feature style (border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget5": {
+        "comboData": 1, 
+        "comboText": "Absolute value", 
+        "editText": "0", 
+        "type": 4
+      }, 
+      "visible": true
+    }, 
+    "geo_dissolve2_smooth2_Id_620180115135720498": {
+      "checkBox_Clip": true, 
+      "checkBox_ExportAttrs": false, 
+      "comboBox_Label": null, 
+      "comboBox_ObjectType": 1, 
+      "heightWidget": {
+        "comboData": 2, 
+        "comboText": "Relative to DEM", 
+        "editText": ".1", 
+        "type": 4
+      }, 
+      "labelHeightWidget": {
+        "comboData": 3, 
+        "comboText": "Height from overlay", 
+        "editText": "72.2387015164", 
+        "type": 6
+      }, 
+      "radioButton_IntersectingFeatures": true, 
+      "styleWidget0": {
+        "comboData": 11, 
+        "comboText": "Layer image", 
+        "editText": "1 layer selected", 
+        "layerIds": [
+          "geo_dissolve2_smooth2_Id_620180115135720498"
+        ], 
+        "type": 8
+      }, 
+      "styleWidget1": {
+        "comboData": 2, 
+        "comboText": "Fixed value", 
+        "editText": "0", 
+        "type": 5
+      }, 
+      "styleWidget2": {
+        "comboData": 0, 
+        "comboText": "(No border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget3": {
+        "checkBox": false, 
+        "type": 9
+      }, 
+      "styleWidget4": {
+        "comboData": 1, 
+        "comboText": "Feature style (border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget5": {
+        "comboData": 1, 
+        "comboText": "Absolute value", 
+        "editText": "0", 
+        "type": 4
+      }, 
+      "visible": true
+    }, 
+    "geo_dissolve2_smooth2_Id_720180115135720500": {
+      "checkBox_Clip": true, 
+      "checkBox_ExportAttrs": false, 
+      "comboBox_Label": null, 
+      "comboBox_ObjectType": 1, 
+      "heightWidget": {
+        "comboData": 2, 
+        "comboText": "Relative to DEM", 
+        "editText": ".1", 
+        "type": 4
+      }, 
+      "labelHeightWidget": {
+        "comboData": 3, 
+        "comboText": "Height from overlay", 
+        "editText": "72.2387015164", 
+        "type": 6
+      }, 
+      "radioButton_IntersectingFeatures": true, 
+      "styleWidget0": {
+        "comboData": 11, 
+        "comboText": "Layer image", 
+        "editText": "1 layer selected", 
+        "layerIds": [
+          "geo_dissolve2_smooth2_Id_720180115135720500"
+        ], 
+        "type": 8
+      }, 
+      "styleWidget1": {
+        "comboData": 2, 
+        "comboText": "Fixed value", 
+        "editText": "0", 
+        "type": 5
+      }, 
+      "styleWidget2": {
+        "comboData": 0, 
+        "comboText": "(No border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget3": {
+        "checkBox": false, 
+        "type": 9
+      }, 
+      "styleWidget4": {
+        "comboData": 1, 
+        "comboText": "Feature style (border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget5": {
+        "comboData": 1, 
+        "comboText": "Absolute value", 
+        "editText": "0", 
+        "type": 4
+      }, 
+      "visible": true
+    }, 
+    "geo_dissolve2_smooth2_Id__120180115135720439": {
+      "checkBox_Clip": true, 
+      "checkBox_ExportAttrs": false, 
+      "comboBox_Label": null, 
+      "comboBox_ObjectType": 1, 
+      "heightWidget": {
+        "comboData": 2, 
+        "comboText": "Relative to DEM", 
+        "editText": ".1", 
+        "type": 4
+      }, 
+      "labelHeightWidget": {
+        "comboData": 3, 
+        "comboText": "Height from overlay", 
+        "editText": "72.2387015164", 
+        "type": 6
+      }, 
+      "radioButton_IntersectingFeatures": true, 
+      "styleWidget0": {
+        "comboData": 11, 
+        "comboText": "Layer image", 
+        "editText": "1 layer selected", 
+        "layerIds": [
+          "geo_dissolve2_smooth2_Id__120180115135720439"
+        ], 
+        "type": 8
+      }, 
+      "styleWidget1": {
+        "comboData": 2, 
+        "comboText": "Fixed value", 
+        "editText": "0", 
+        "type": 5
+      }, 
+      "styleWidget2": {
+        "comboData": 0, 
+        "comboText": "(No border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget3": {
+        "checkBox": false, 
+        "type": 9
+      }, 
+      "styleWidget4": {
+        "comboData": 1, 
+        "comboText": "Feature style (border)", 
+        "editText": "", 
+        "type": 7
+      }, 
+      "styleWidget5": {
+        "comboData": 1, 
+        "comboText": "Absolute value", 
+        "editText": "0", 
+        "type": 4
+      }, 
+      "visible": true
+    }
+  }, 
+  "PluginVersion": "1.4.2", 
+  "Template": "FileExport.html", 
+  "WORLD": {
+    "lineEdit_BaseSize": "100", 
+    "lineEdit_Color": "0x000000", 
+    "lineEdit_zFactor": "3.45", 
+    "lineEdit_zShift": "2", 
+    "radioButton_Color": true, 
+    "radioButton_WGS84": true
+  }
+}
